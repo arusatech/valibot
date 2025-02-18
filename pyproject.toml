@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "valibot"
+version = "0.1.0"
+description = "VALIBOT Generative AI Test Automation"
+authors = ["Yakub Mohammad <yakub@arusallc.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+google-generativeai = "^0.8.3"
+cryptography = "^44.0.0"
+tenacity = "^9.0.0"
+jira = "^3.8.0"
+boto3 = "^1.35.81"
+playwright = "^1.49.1"
+grpcio-status = "1.67.1"
+grpcio = "1.67.1"
+jsonpath-nz = "^0.1.3"
+bs4 = "^0.0.2"
+html2text = "^2024.2.26"
+google-api-python-client = "^2.161.0"
+google-auth-httplib2 = "^0.2.0"
+google-auth-oauthlib = "^1.2.1"
